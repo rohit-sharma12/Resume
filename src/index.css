@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: woff;
+  src: url(./assets/file.woff2);
+}
+
+@font-face {
+  font-family: wlpsgx;
+  src: url(./assets/wlpsgx_NAUNkpmKQifcxkQchDFo3fJ1F25BC.woff2);
+}
+
+@font-face {
+  font-family: jaune;
+  src: url(./assets/Jaunev0.6GX.ttf);
+}
+
+/* ... */
+
+#page1-in {
+  position: relative;
+  perspective: 1500px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#section2 {
+  position: relative;
+  perspective: 3000px;
+}
