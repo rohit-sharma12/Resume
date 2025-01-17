@@ -9,6 +9,7 @@ import Page2 from './pages/page2'
 import Page3 from './pages/page3'
 import Contact from './components/contact/contact'
 import Footer from './components/footer'
+import GradientCursor from './components/cursorStyle'
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
       <Projects />
       <section id="Contact"><Contact /></section>
       <Footer />
-
+      <GradientCursor />
 
     </div>
   )

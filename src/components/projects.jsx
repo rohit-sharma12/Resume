@@ -56,19 +56,7 @@ const Single = ({ item }) => {
     const y = useTransform(scrollYProgress, [0, 1], [-200, 100]);
 
     return (
-        <section >
-            {/* <div className="flex items-center justify-center w-full h-screen overflow-hidden bg-black">
-                <div className="max-w-7xl h-full m-auto flex gap-12 items-center justify-center overflow-hidden">
-                    <div className="flex-1 h-1/2 " ref={ref}>
-                        <img src={item.img} alt="" className="object-coverh-full w-full mt-20" />
-                    </div>
-                    <motion.div className="flex-1 flex flex-col gap-7" style={{ y }}>
-                        <h2 className="font-7xl">{item.title}</h2>
-                        <p className="text-gray-300 font-2xl">{item.des}</p>
-                        <Button className="bg-orange-500 border rounded-md none w-24 cursor-pointer" >See Demo</Button>
-                    </motion.div>
-                </div>
-            </div> */}
+        <section>
             <div className="m-auto flex items-center justify-center">
                 <motion.Card className="w-[25vw] h-[65vh] mt-10 border rounded-2xl" style={{ y }}>
                     <CardHeader ref={ref}>
