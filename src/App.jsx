@@ -13,6 +13,7 @@ import GradientCursor from './components/cursorStyle'
 
 function App() {
   return (
+
     <div>
       <section id="Homepage">
         <Header />
