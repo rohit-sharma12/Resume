@@ -15,14 +15,14 @@ const items = [
     {
         id: 1,
         title: "Grow",
-        img: "src/assets/Grow.png",
+        img: "icons/Grow.png",
         des: "Grow is a job portal for job seekers and the employers. Employers can post the job and their description and the job seekers can apply for ths job. Even they can send their resume to the recruiter. Also candidate can save the jobs and track the jobs.",
         link: "https://grow-pink.vercel.app"
     },
     {
         id: 2,
         title: "FitnessLab",
-        img: "src/assets/Exercise.png",
+        img: "icons/Exercise.png",
         des: "FitnessLab in fitness platform where you can exercise with this platform and can search your favouite exercises.There is also exercise animation that can tech you the right way to do exercises. You have also the option for watch exrcises on youtube that you selected.",
         link: "https://exercise-murex.vercel.app"
 
@@ -30,21 +30,21 @@ const items = [
     {
         id: 3,
         title: "Shortify",
-        img: "src/assets/Shortify.png",
+        img: "icons/Shortify.png",
         des: "Shortify is advanced URL shortner where you can short you long url and also generate the QR for your url.It has also the features to track your clicks and the location with a greate authentication system.",
         link: "https://shortify-kappa.vercel.app"
     },
     {
         id: 4,
         title: "Amazon",
-        img: "src/assets/amazon.png",
+        img: "icons/amazon.png",
         des: "This is a full amazon clone where you can add your items into cart. It has the feature of deletion and addition of the items from the cart.",
         link: "https://github.com/rohit-sharma12/amazon-clone"
     },
     {
         id: 6,
         title: "Animation",
-        img: "src/assets/animate.png",
+        img: "icons/animate.png",
         link: "https://github.com/rohit-sharma12/animation"
     },
 ];
