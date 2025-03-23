@@ -28,6 +28,13 @@ const items = [
 
     },
     {
+        id: 4,
+        title: "Giphy",
+        img: "icons/gifhy.png",
+        des: "GIPHY is the platform that animates your world. Find the GIFs, Clips, and Stickers that make your conversations more positive, more expressive",
+        link: "https://giphy-navy.vercel.app/",
+    },
+    {
         id: 3,
         title: "Shortify",
         img: "icons/Shortify.png",
@@ -35,7 +42,7 @@ const items = [
         link: "https://shortify-kappa.vercel.app"
     },
     {
-        id: 4,
+        id: 5,
         title: "Amazon",
         img: "icons/amazon.png",
         des: "This is a full amazon clone where you can add your items into cart. It has the feature of deletion and addition of the items from the cart.",
