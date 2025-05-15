@@ -1,13 +1,6 @@
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react";
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from "@/components/ui/card"
+import { CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "./ui/button";
 
 
@@ -50,6 +43,13 @@ const items = [
     },
     {
         id: 6,
+        title: "Ochi",
+        img: "/public/icons/ochi.png",
+        des: "Creating UI of Ochi website using React.js, Tailwind CSS and GSAP",
+        link: "https://github.com/rohit-sharma12/ochi-clone"
+    },
+    {
+        id: 7,
         title: "Animation",
         img: "icons/animate.png",
         link: "https://github.com/rohit-sharma12/animation"
