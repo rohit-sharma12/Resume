@@ -64,21 +64,21 @@ const Single = ({ item }) => {
 
     return (
         <section>
-            <div className="m-auto flex items-center justify-center">
-                <motion.Card className="w-[25vw] h-[65vh] mt-10 border rounded-2xl" style={{ y }}>
-                    <CardHeader ref={ref}>
-                        <img src={item.img} alt="" />
-                        <CardTitle className="font-extrabold text-xl">{item.title}</CardTitle>
-                        <CardDescription>{item.des}</CardDescription>
+            <div className="m-auto flex items-center justify-center px-4 sm:px-6 lg:px-8">
+                <motion.Card className="w-[90vw] sm:w-[70vw] md:w-[50vw] lg:w-[25vw] h-[500px] sm:h-[550px] lg:h-[65vh] mt-6 sm:mt-8 lg:mt-10 border rounded-xl lg:rounded-2xl" style={{ y }}>
+                    <CardHeader ref={ref} className="h-full flex flex-col">
+                        <div className="relative w-full h-48 sm:h-56 mb-4">
+                            <img src={item.img} alt="" className="w-full h-full object-cover rounded-t-xl" />
+                        </div>
+                        <CardTitle className="font-extrabold text-lg sm:text-xl mb-2">{item.title}</CardTitle>
+                        <CardDescription className="text-sm sm:text-base flex-grow">{item.des}</CardDescription>
+                        <a href={item.link} className="mt-4">
+                            <Button variant="outline" className="w-full sm:w-auto shadow-[0_0_15px_0_#64FFDA80] rounded-xl lg:rounded-2xl p-4 lg:p-5 text-sm sm:text-base">View More</Button>
+                        </a>
                     </CardHeader>
-                    <a href={item.link}>
-                        <Button variant="outline" className="ml-4 shadow-[0_0_15px_0_#64FFDA80] rounded-2xl p-5 bottom-0">View More</Button>
-                    </a>
-
                 </motion.Card>
             </div>
-
-        </section >
+        </section>
     )
 }
 const Projects = () => {
@@ -90,13 +90,15 @@ const Projects = () => {
     })
     return (
         <div className="relative" ref={ref}>
-            <div className="sticky top-0 left-0 pt-12 text-center text-orange-500 text-5xl font-[jaune]">
-                <h1 className="">Featured Works</h1>
-                <motion.div style={{ scaleX }} className="h-2 bg-white mt-3"></motion.div>
+            <div className="sticky top-0 left-0 pt-8 sm:pt-10 lg:pt-12 text-center text-orange-500 text-3xl sm:text-4xl lg:text-5xl font-[jaune] px-4 sm:px-6 lg:px-8">
+                <h1 className="mb-2">Featured Works</h1>
+                <motion.div style={{ scaleX }} className="h-1 sm:h-1.5 lg:h-2 bg-white"></motion.div>
             </div>
-            {items.map(item => (
-                <Single item={item} key={item.id} />
-            ))}
+            <div className="py-6 sm:py-8 lg:py-10">
+                {items.map(item => (
+                    <Single item={item} key={item.id} />
+                ))}
+            </div>
         </div>
     )
 }

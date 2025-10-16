@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Hero from "@/components/hero";
-import { Video, VideoOff } from "lucide-react";
 
 const Page1 = () => {
     const tiltRef = useRef(null);
@@ -28,7 +27,7 @@ const Page1 = () => {
         <div id='page1' onMouseMove={(e) => {
 
             mouseMoving(e)
-        }} className="h-screen p-4 bg-white">
+        }} className="h-screen p-4">
             <div id='page1-in' className="relative shadow-lg bg-black h-full w-full rounded-2xl">
 
                 <Hero abc={tiltRef} />

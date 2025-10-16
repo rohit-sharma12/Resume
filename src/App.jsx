@@ -19,7 +19,7 @@ function App() {
         <Header />
         <Page1 />
       </section>
-      <section id='About'><Page2 /></section>
+      {/* <section id='About'><Page2 /></section> */}
       <section><Page3 /></section>
 
       <section id="Skills"><Parallax type="skills" /></section>

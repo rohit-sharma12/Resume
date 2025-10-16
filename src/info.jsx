@@ -5,7 +5,7 @@ const skillInfo = [
     },
     {
         title: "Backend",
-        skills: ["Node JS", "Supabase"]
+        skills: ["Node JS", "Supabase", "Express JS"]
     },
     {
         title: "Tools",
