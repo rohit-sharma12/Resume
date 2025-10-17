@@ -23,12 +23,10 @@ const SkillBadge = (skills) => {
 const SkillsCard = (props) => {
     return (
         <div className="w-full sm:w-[48%] md:w-[31%] lg:w-[30%] bg-black border border-[#64FFDA30] rounded-2xl p-6 sm:p-8 shadow-[0_0_20px_0_#64FFDA30] backdrop-blur-md hover:shadow-[0_0_25px_2px_#64FFDA70] hover:scale-[1.03] transition-all duration-300 mt-6 sm:mt-8">
-            {/* Card Header */}
             <div className="text-2xl sm:text-3xl font-[jaune] text-center text-[#64FFDA] mb-6 tracking-wider">
                 {props.title}
             </div>
 
-            {/* Skill Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-5 place-items-center">
                 {SkillBadge(props.skills)}
             </div>
