@@ -9,7 +9,7 @@ const skillInfo = [
     },
     {
         title: "Tools",
-        skills: ["Github", "VS Code"]
+        skills: ["Github", "VS Code", "Postman", "Vercel"]
     }
 ]
 export { skillInfo }

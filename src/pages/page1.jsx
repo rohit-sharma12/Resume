@@ -32,7 +32,6 @@ const Page1 = () => {
 
                 <Hero abc={tiltRef} />
             </div>
-
         </div>
     )
 }
