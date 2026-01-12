@@ -68,7 +68,7 @@ const HeroSectionAnimated = () => {
 
                         <div className="md:col-span-2 text-lg font-light text-gray-300">
                             <AnimatedParagraph customRef={element}>
-                                I'm a frontend web developer dedicated to turning ideas into creative solutions. I specialize in creating seamless and intuitive user experiences.
+                                I'm a FullStack web developer dedicated to turning ideas into creative solutions. I specialize in creating seamless and intuitive user experiences.
                             </AnimatedParagraph>
 
                             <motion.p style={{ opacity }} className="leading-relaxed">

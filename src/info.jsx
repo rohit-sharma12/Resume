@@ -5,11 +5,11 @@ const skillInfo = [
     },
     {
         title: "Backend",
-        skills: ["Node JS", "Supabase", "Express JS"]
+        skills: ["Node JS", "Express JS", "MongoDB"]
     },
     {
         title: "Tools",
-        skills: ["Github", "VS Code", "Postman", "Vercel"]
+        skills: ["Github", "VS Code", "Postman", "Vercel", "Supabase"]
     }
 ]
 export { skillInfo }

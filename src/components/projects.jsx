@@ -36,24 +36,19 @@ const items = [
     },
     {
         id: 5,
-        title: "Amazon",
-        img: "icons/amazon.png",
-        des: "This is a full amazon clone where you can add your items into cart. It has the feature of deletion and addition of the items from the cart.",
-        link: "https://github.com/rohit-sharma12/amazon-clone"
+        title: "Prerna's ethnic wear",
+        img: "icons/prerna.png",
+        des: "This is a full Stack e-commerce where you can add your items into cart based on filteration also make payment. It has the feature of deletion and addition of the items from the cart.",
+        link: "https://github.com/rohit-sharma12/Prerena-shop"
     },
     {
         id: 6,
-        title: "Ochi",
-        img: "/public/icons/ochi.png",
-        des: "Creating UI of Ochi website using React.js, Tailwind CSS and GSAP",
-        link: "https://github.com/rohit-sharma12/ochi-clone"
+        title: "Uber",
+        img: "/public/icons/uber.png",
+        des: "Designed and implemented a real-time ride lifecycle system using Socket.",
+        link: "https://github.com/rohit-sharma12/uber"
     },
-    {
-        id: 7,
-        title: "Animation",
-        img: "icons/animate.png",
-        link: "https://github.com/rohit-sharma12/animation"
-    },
+
 ];
 
 const Single = ({ item }) => {

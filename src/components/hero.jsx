@@ -10,16 +10,16 @@ const HomePage = () => {
                 
                 <div className="md:col-span-7 flex flex-col justify-center py-12 mt-4 md:py-20">
                     <h1 className="text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight mb-6">
-                        <span className="text-orange-500 block">FRONTEND</span>
+                        <span className="text-orange-500 block">Full Stack</span>
                         <span className="block">DEVELOPER</span>
                     </h1>
 
                     <p className="text-base sm:text-lg text-gray-300 max-w-md mb-5">
-                        Hi! I'm **Rohit**. A Frontend Developer with hands-on experience through building high-performance, scalable, and responsive web solutions.
+                        Hi! I'm **Rohit**. A FullStack Developer with hands-on experience through building high-performance, scalable, and responsive web solutions.
                     </p>
 
                     <a
-                        href="/src/assets/resume.pdf"
+                        href="/src/assets/newResume.pdf"
                         className="w-48 py-3 px-6 text-center text-lg font-semibold bg-orange-600 hover:bg-orange-700 transition duration-300 rounded shadow-lg uppercase tracking-wider"
                     >
                         RESUME
