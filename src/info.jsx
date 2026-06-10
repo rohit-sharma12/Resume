@@ -1,7 +1,7 @@
 const skillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "JavaScript", "React JS", "Redux", "Tailwind CSS", "Material UI", "GSAP"]
+        skills: ["HTML", "CSS", "JavaScript", "TypeScript", "React JS", "Redux", "Tailwind CSS", "Material UI", "GSAP"]
     },
     {
         title: "Backend",

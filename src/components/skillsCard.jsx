@@ -4,7 +4,7 @@ const SkillBadge = (skills) => {
     return skills.map((skill, index) => (
         <div
             key={index}
-            className="flex flex-col items-center justify-center bg-[#1a1a2e]/70 border border-[#64FFDA40] rounded-xl p-3 sm:p-4 hover:bg-[#64FFDA15] transition-all duration-300 w-24 sm:w-28 md:w-32"
+            className="flex flex-col items-center justify-center border border-[#64FFDA40] rounded-xl p-2 sm:p-3 hover:bg-[#64FFDA15] transition-all duration-300 w-24 sm:w-28 md:w-32"
         >
             <Avatar className="w-10 h-10 sm:w-12 sm:h-12 mb-2">
                 <AvatarImage
